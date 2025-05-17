@@ -8,7 +8,7 @@ Ekstensi ini menghadirkan sebuah maskot AI animasi yang bisa kamu aktifkan di ha
 
 ### Cara Pasang
 
-1. **Download atau clone repository ini** ke komputer kamu.
+1. **Download Zip atau clone repository ini** ke komputer kamu.
 2. Buka browser Google Chrome.
 3. Ketik `chrome://extensions/` di address bar, lalu tekan Enter.
 4. Aktifkan **Mode Pengembang** (Developer mode) di pojok kanan atas.
@@ -30,7 +30,7 @@ Ekstensi ini menghadirkan sebuah maskot AI animasi yang bisa kamu aktifkan di ha
 
 ### Installation
 
-1. **Download or clone this repository** to your computer.
+1. **Download Zip or clone this repository** to your computer.
 2. Open Google Chrome browser.
 3. Type `chrome://extensions/` in the address bar and press Enter.
 4. Enable **Developer mode** in the top-right corner.
