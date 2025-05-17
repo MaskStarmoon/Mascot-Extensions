@@ -1,0 +1,35 @@
+{
+  "manifest_version": 3,
+  "name": "Interactive Miku AI Mascot",
+  "version": "1.0",
+  "description": "A 2D mascot that can talk and follow the mouse.",
+  "permissions": ["scripting", "activeTab"],
+  "host_permissions": ["<all_urls>", "https://api-rangestudio.vercel.app/*"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["popup.js"]
+    }
+],
+  "web_accessible_resources": [
+    {
+      "resources": ["assets/mascot.png"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "assets/icon/miku-icon16.png",
+      "48": "assets/icon/miku-icon48.png",
+      "128": "assets/icon/miku-icon128.png"
+    }
+  },
+  "icons": {
+    "16": "assets/icon/miku-icon16.png",
+    "48": "assets/icon/miku-icon48.png",
+    "128": "assets/icon/miku-icon128.png"
+  },
+  "permissions": ["scripting", "tabs", "activeTab"],
+  "host_permissions": ["<all_urls>"]
+}
